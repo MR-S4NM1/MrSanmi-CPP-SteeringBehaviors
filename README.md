@@ -20,74 +20,74 @@ Core Features
 
 Steering Behaviors
 
-– Seek: Direct pursuit of a target at maximum speed
+- Seek: Direct pursuit of a target at maximum speed
 
-– Arrive: Smooth deceleration as the agent approaches a target
+- Arrive: Smooth deceleration as the agent approaches a target
 
-– RunAway: Flee behavior away from a designated threat
+- RunAway: Flee behavior away from a designated threat
 
-– Wander: Randomized exploratory behavior with directional variation
+- Wander: Randomized exploratory behavior with directional variation
 
-– Truncated steering force to ensure stable acceleration limits
+- Truncated steering force to ensure stable acceleration limits
 
-– Normalized direction vectors for consistent movement
+- Normalized direction vectors for consistent movement
 
 
 Autonomous Agent System
 
-– Agent class with position, velocity, collider, and steering controller
+- Agent class with position, velocity, collider, and steering controller
 
-– Maximum speed and maximum force constraints
+- Maximum speed and maximum force constraints
 
-– Independent logic per agent with clean update/draw cycle
+- Independent logic per agent with clean update/draw cycle
 
-– Reusable for pathfinding, NPCs, and gameplay prototypes
+- Reusable for pathfinding, NPCs, and gameplay prototypes
 
 Collision and Collider Helper
 
-– Simple circular collider component
+- Simple circular collider component
 
-– Position offset handling and collider updates
+- Position offset handling and collider updates
 
-– Suitable for obstacle detection or future physics integration
+- Suitable for obstacle detection or future physics integration
 
 Level and Actor Management
 
-– LevelManager that stores, updates, and renders all GameActors
+- LevelManager that stores, updates, and renders all GameActors
 
-– Lookup for neighbors within a radius to support flocking behavior
+- Lookup for neighbors within a radius to support flocking behavior
 
-– Simple midpoint calculation for multi-agent coordination
+- Simple midpoint calculation for multi-agent coordination
 
-– GameActor base class for consistent rendering and identity
+- GameActor base class for consistent rendering and identity
 
 Flocking Support
 
-– Storage of agents in a specialized list for group logic
+- Storage of agents in a specialized list for group logic
 
-– Query for neighbors around a given agent
+- Query for neighbors around a given agent
 
-– Basis for adding Cohesion, Alignment, and Separation rules
+- Basis for adding Cohesion, Alignment, and Separation rules
 
 Rendering and Integration
 
-– Visual representation of all actors using SFML 3.0.2
+- Visual representation of all actors using SFML 3.0.2
 
-– Window rendering loop with update/draw cycle
+- Window rendering loop with update/draw cycle
 
-– Fully self-contained C++ project ready to compile
+- Fully self-contained C++ project ready to compile
 
 Design Patterns and Principles Used
 
-– Composition: Agent composed with collider and steering system
+- Composition: Agent composed with collider and steering system
 
-– Inheritance: GameActor base class with specialized Obstacle
+- Inheritance: GameActor base class with specialized Obstacle
 
-– Data-Oriented Thinking: Lightweight structs for vectors and physics values
+- Data-Oriented Thinking: Lightweight structs for vectors and physics values
 
-– Separation of Concerns: Rendering, logic, and physics fully separated
+- Separation of Concerns: Rendering, logic, and physics fully separated
 
-– Encapsulation: Private/internal fields hidden and controlled via methods
+- Encapsulation: Private/internal fields hidden and controlled via methods
 
 ---
 
@@ -172,6 +172,7 @@ Key Scenarios Demonstrated
 ---
 
 Extension Points
+
 - Add full flocking (Cohesion, Alignment, Separation)
 
 - Implement obstacle avoidance using the existing Collider system
