@@ -187,4 +187,4 @@ Final Notes
 
 This project demonstrates a complete AI steering and movement framework built manually using C++ and SFML. It provides a solid foundation for more complex autonomous behaviors and serves as a portfolio piece highlighting vector math proficiency, AI fundamentals, clean architecture, and gameplay programming skills.
 
-The system is lightweight, maintainable, and ready for extension—ideal for experimentation, student learning, and integration into larger gameplay prototypes or AI-driven simulations.
+The system is lightweight, maintainable, and ready for extension, which is ideal for experimentation, student learning, and integration into larger gameplay prototypes or AI-driven simulations.
