@@ -93,17 +93,17 @@ Design Patterns and Principles Used
 
 Technical Highlights
 
-– Custom vector math operations through SteeringMath
+- Custom vector math operations through SteeringMath
 
-– Normalization, truncation, and length calculations
+- Normalization, truncation, and length calculations
 
-– Clean, deterministic update loop for all actors
+- Clean, deterministic update loop for all actors
 
-– Boundary-safe and force-limited steering output
+- Boundary-safe and force-limited steering output
 
-– Efficient neighbor lookup using simple radius filtering
+- Efficient neighbor lookup using simple radius filtering
 
-– Minimal dependencies for straightforward portability
+- Minimal dependencies for straightforward portability
 
 ---
 
@@ -111,15 +111,15 @@ Agent Behavior Overview
 
 Each agent in the scene supports:
 
-– Independent movement
+- Independent movement
 
-– Steering accumulation
+- Steering accumulation
 
-– Controlled acceleration and velocity
+- Controlled acceleration and velocity
 
-– Collision radius via collider
+- Collision radius via collider
 
-– Visual representation through colored shapes
+- Visual representation through colored shapes
 
 ---
 
